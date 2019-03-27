@@ -1,0 +1,16 @@
+<form action="index.php?action=upload" method="post" enctype="multipart/form-data">
+Program Title: <input type="text" name="title" /><br>
+Git URL: <input type="text" name="git" /><br>
+Project Number: <input type="number" name="project" min="3" max="5" value="5" /><br>
+<input type="radio" name="classnumber" value="0"> 8:30am Class<br>
+<input type="radio" name="classnumber" value="0" checked> 9:40am Class<br>
+Screenshot 1: <input type="file" name="file1" /><br>
+Screenshot 2: <input type="file" name="file2" /><br>
+Screenshot 3: <input type="file" name="file3" /><br>
+Teammate: <input type="text" name="collab1"><br>
+Teammate: <input type="text" name="collab2"><br>
+Readme.md file: <input type="file" name="markdown" /><br>
+git log --stat file:  <input type="file" name="gitlog" /><br>
+<button type="submit" name="Upload">Upload</button>
+</form>
+
